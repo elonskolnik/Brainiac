@@ -90,94 +90,94 @@ function preload ()
     this.load.audio('porSd3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/porSd3.wav');
 
     //load buttons
-    this.load.image('leftButton', 'assets/misc/leftArrow.png');
-    this.load.image('rightButton', 'assets/misc/rightArrow.png');
-    this.load.image('soundon', 'assets/misc/soundon.png');
-    this.load.image('soundoff', 'assets/misc/soundoff.png');
+    this.load.image('leftButton', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/misc/leftArrow.png');
+    this.load.image('rightButton', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/misc/rightArrow.png');
+    this.load.image('soundon', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/misc/soundon.png');
+    this.load.image('soundoff', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/misc/soundoff.png');
 
     //load gray boxes
-    this.load.image('bABGH', 'assets/borders/borderABGH.png');
-    this.load.image('bCF', 'assets/borders/borderCF.png');
-    this.load.image('bDE', 'assets/borders/borderDE.png');
-    this.load.image('bIJ', 'assets/borders/borderIJ.png');
-    this.load.image('border', 'assets/borders/borderFull.png');
+    this.load.image('bABGH', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/borders/borderABGH.png');
+    this.load.image('bCF', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/borders/borderCF.png');
+    this.load.image('bDE', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/borders/borderDE.png');
+    this.load.image('bIJ', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/borders/borderIJ.png');
+    this.load.image('border', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/borders/borderFull.png');
 
     //load machine
     this.load.image('mac', 'assets/mac.png');
-    this.load.spritesheet('macV0', 'assets/macV0.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('macV1', 'assets/macV1.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('macV2', 'assets/macV2.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('macV3', 'assets/macV3.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('macV4', 'assets/macV4.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('macV5', 'assets/macV5.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('macV6', 'assets/macV6.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('macV0', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV0.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('macV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV1.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('macV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV2.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('macV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV3.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('macV4', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV4.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('macV5', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV5.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('macV6', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV6.png', {frameWidth: 200, frameHeight: 275});
 
     //load smoke
     this.load.image('smk', 'assets/smk.png');
-    this.load.spritesheet('smkV1', 'assets/smkV1.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV2', 'assets/smkV2.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV3', 'assets/smkV3.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV4', 'assets/smkV4.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV5', 'assets/smkV5.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV6', 'assets/smkV6.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV7', 'assets/smkV7.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV8', 'assets/smkV8.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV1.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV2.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV3.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV4', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV4.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV5', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV5.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV6', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV6.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV7', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV7.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV8', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV8.png', {frameWidth: 200, frameHeight: 275});
 
     //load carts
     this.load.image('crt', 'assets/crt.png');
-    this.load.spritesheet('crtV1', 'assets/crtV1.png', {frameWidth: 275, frameHeight: 100});
-    this.load.spritesheet('crtV2', 'assets/crtV2.png', {frameWidth: 275, frameHeight: 100});
+    this.load.spritesheet('crtV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/crtV1.png', {frameWidth: 275, frameHeight: 100});
+    this.load.spritesheet('crtV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/crtV2.png', {frameWidth: 275, frameHeight: 100});
 
     //load fingergun
     this.load.image('gun', 'assets/gun.png');
-    this.load.spritesheet('gunV1', 'assets/gunV1.png', {frameWidth: 275, frameHeight: 175});
-    this.load.spritesheet('gunV2', 'assets/gunV2.png', {frameWidth: 275, frameHeight: 175});
+    this.load.spritesheet('gunV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/gunV1.png', {frameWidth: 275, frameHeight: 175});
+    this.load.spritesheet('gunV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/gunV2.png', {frameWidth: 275, frameHeight: 175});
     
     //load eyeBlocks
     this.load.image('eye', 'assets/eye.png');
-    this.load.spritesheet('eyeV0', 'assets/eyeV0.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV1', 'assets/eyeV1.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV2', 'assets/eyeV2.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV3', 'assets/eyeV3.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV4', 'assets/eyeV4.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV5', 'assets/eyeV5.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV6', 'assets/eyeV6.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV7', 'assets/eyeV7.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV0', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV0.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV1.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV2.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV3.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV4', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV4.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV5', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV5.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV6', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV6.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV7', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV7.png', {frameWidth: 200, frameHeight: 275});
 
     //load heart
     this.load.image('hrt', 'assets/hrt.png');
-    this.load.spritesheet('hrtV1', 'assets/hrtV1.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('hrtV2', 'assets/hrtV2.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('hrtV3', 'assets/hrtV3.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('hrtV4', 'assets/hrtV4.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('hrtV5', 'assets/hrtV5.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('hrtV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/hrtV1.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('hrtV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/hrtV2.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('hrtV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/hrtV3.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('hrtV4', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/hrtV4.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('hrtV5', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/hrtV5.png', {frameWidth: 275, frameHeight: 275});
 
      //load brain
     this.load.image('brn', 'assets/brn.png');
-    this.load.spritesheet('brnV1', 'assets/brnV1.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('brnV2', 'assets/brnV2.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('brnV3', 'assets/brnV3.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('brnV4', 'assets/brnV4.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('brnV5', 'assets/brnV5.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('brnV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/brnV1.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('brnV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/brnV2.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('brnV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/brnV3.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('brnV4', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/brnV4.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('brnV5', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/brnV5.png', {frameWidth: 275, frameHeight: 275});
 
     //load portals
     this.load.image('por', 'assets/por.png');
-    this.load.spritesheet('porV1', 'assets/porV1.png', {frameWidth: 275, frameHeight: 100});
-    this.load.spritesheet('porV2', 'assets/porV2.png', {frameWidth: 275, frameHeight: 100});
-    this.load.spritesheet('porV3', 'assets/porV3.png', {frameWidth: 275, frameHeight: 100});
+    this.load.spritesheet('porV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/porV1.png', {frameWidth: 275, frameHeight: 100});
+    this.load.spritesheet('porV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/porV2.png', {frameWidth: 275, frameHeight: 100});
+    this.load.spritesheet('porV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/porV3.png', {frameWidth: 275, frameHeight: 100});
 
     //load tvs
     this.load.image('tvs', 'assets/tvs.png');
-    this.load.spritesheet('tvsV1', 'assets/tvsV1.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('tvsV2', 'assets/tvsV2.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('tvsV3', 'assets/tvsV3.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('tvsV4', 'assets/tvsV4.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('tvsV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tvsV1.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('tvsV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tvsV2.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('tvsV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tvsV3.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('tvsV4', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tvsV4.png', {frameWidth: 200, frameHeight: 275});
 
     //load tube
     this.load.image('tub', 'assets/tub.png');
-    this.load.spritesheet('tubV1', 'assets/tubV1.png', {frameWidth: 275, frameHeight: 175});
-    this.load.spritesheet('tubV2', 'assets/tubV2.png', {frameWidth: 275, frameHeight: 175});
-    this.load.spritesheet('tubV3', 'assets/tubV3.png', {frameWidth: 275, frameHeight: 175});
+    this.load.spritesheet('tubV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tubV1.png', {frameWidth: 275, frameHeight: 175});
+    this.load.spritesheet('tubV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tubV2.png', {frameWidth: 275, frameHeight: 175});
+    this.load.spritesheet('tubV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tubV3.png', {frameWidth: 275, frameHeight: 175});
 }
 
 function create ()
