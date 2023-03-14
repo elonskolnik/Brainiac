@@ -72,22 +72,22 @@ function preload ()
     });
 
     //load sounds
-    this.load.audio('switch', 'assets/sound/switch.mp3');
-    this.load.audio('macSd', 'assets/sound/macSd.wav');
-    this.load.audio('hrtSd', 'assets/sound/hrtSd.wav');
-    this.load.audio('brnSd', 'assets/sound/brnSd.wav');
-    this.load.audio('eyeSd', 'assets/sound/eyeSd.wav');
-    this.load.audio('smkSd', 'assets/sound/smkSd.wav');
-    this.load.audio('crtSd', 'assets/sound/crtSd.wav');
-    this.load.audio('crtSd2', 'assets/sound/crtSd2.wav');
-    this.load.audio('gunSd', 'assets/sound/gunSd.wav');
-    this.load.audio('tvsSd', 'assets/sound/tvsSd.wav');
-    this.load.audio('tvsSd2', 'assets/sound/tvsSd2.wav');
-    this.load.audio('tubSd', 'assets/sound/tubSd.wav');
-    this.load.audio('tubSd2', 'assets/sound/tubSd2.wav');
-    this.load.audio('porSd', 'assets/sound/porSd.wav');
-    this.load.audio('porSd2', 'assets/sound/porSd2.wav');
-    this.load.audio('porSd3', 'assets/sound/porSd3.wav');
+    this.load.audio('switch', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/switch.mp3');
+    this.load.audio('macSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/macSd.wav');
+    this.load.audio('hrtSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/hrtSd.wav');
+    this.load.audio('brnSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/brnSd.wav');
+    this.load.audio('eyeSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/eyeSd.wav');
+    this.load.audio('smkSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/smkSd.wav');
+    this.load.audio('crtSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/crtSd.wav');
+    this.load.audio('crtSd2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/crtSd2.wav');
+    this.load.audio('gunSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/gunSd.wav');
+    this.load.audio('tvsSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/tvsSd.wav');
+    this.load.audio('tvsSd2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/tvsSd2.wav');
+    this.load.audio('tubSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/tubSd.wav');
+    this.load.audio('tubSd2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/tubSd2.wav');
+    this.load.audio('porSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/porSd.wav');
+    this.load.audio('porSd2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/porSd2.wav');
+    this.load.audio('porSd3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/porSd3.wav');
 
     //load buttons
     this.load.image('leftButton', 'assets/misc/leftArrow.png');
