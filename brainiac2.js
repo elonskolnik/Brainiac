@@ -2028,4 +2028,4 @@ function mute(){
     }
 }
 
-function update(){}
+function update(){};
