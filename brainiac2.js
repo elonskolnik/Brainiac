@@ -90,94 +90,94 @@ function preload ()
     this.load.audio('porSd3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/porSd3.wav');
 
     //load buttons
-    this.load.image('leftButton', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/misc/leftArrow.png');
-    this.load.image('rightButton', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/misc/rightArrow.png');
-    this.load.image('soundon', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/misc/soundon.png');
-    this.load.image('soundoff', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/misc/soundoff.png');
+    this.load.image('leftButton', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6d6fe15fd078dce8aee_leftArrow.png');
+    this.load.image('rightButton', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6d6465210dd449aaab0_rightArrow.png');
+    this.load.image('soundon', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6d631f5ba32374860ce_soundoff.png');
+    this.load.image('soundoff', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6d70ee421517ec6cf3e_soundon.png');
 
     //load gray boxes
-    this.load.image('bABGH', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/borders/borderABGH.png');
-    this.load.image('bCF', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/borders/borderCF.png');
-    this.load.image('bDE', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/borders/borderDE.png');
-    this.load.image('bIJ', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/borders/borderIJ.png');
-    this.load.image('border', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/borders/borderFull.png');
+    this.load.image('bABGH', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d695dad9dd50e43b45df_borderABGH.png');
+    this.load.image('bCF', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d695cc5cb213497c8c54_borderCF.png');
+    this.load.image('bDE', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6945363d33bd6486c80_borderDE.png');
+    this.load.image('bIJ', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6958dcdcebc3522438b_borderIJ.png');
+    this.load.image('border', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6957f807d7f86986fbf_borderFull.png');
 
     //load machine
-    this.load.image('mac', 'assets/mac.png');
-    this.load.spritesheet('macV0', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV0.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('macV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV1.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('macV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV2.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('macV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV3.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('macV4', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV4.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('macV5', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV5.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('macV6', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/macV6.png', {frameWidth: 200, frameHeight: 275});
+    this.load.image('mac', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63a608faac70f40faff_mac.png');
+    this.load.spritesheet('macV0', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63bc4987500db7c5f1d_macV0.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('macV1', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d64431f5ba8d2b4857e0_macV1.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('macV2', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d644c4b4b5fdc04ec9cf_macV2.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('macV3', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d643608faa282440fc39_macV3.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('macV4', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d64439c0418fe204dce0_macV4.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('macV5', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d64540f9a0a3e8b2bd78_macV5.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('macV6', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6458dcdce897d223e5a_macV6.png', {frameWidth: 200, frameHeight: 275});
 
     //load smoke
-    this.load.image('smk', 'assets/smk.png');
-    this.load.spritesheet('smkV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV1.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV2.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV3.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV4', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV4.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV5', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV5.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV6', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV6.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV7', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV7.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('smkV8', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/smkV8.png', {frameWidth: 200, frameHeight: 275});
+    this.load.image('smk', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63ab5fdaf5c081fb982_smk.png');
+    this.load.spritesheet('smkV1', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63b39c0415c8b04dcad_smkv1.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV2', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d645465210593c9aa29c_smkV2.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV3', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63b0a674000cd087e12_smkV3.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV4', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63ac0fdb50b920f069e_smkV4.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV5', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63b9075d99a36d4190d_smkV5.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV6', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63a9075d9499bd4190b_smkV6.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV7', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63a608faa533a40fb00_smkV7.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('smkV8', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63a5363d381214868cc_smkV8.png', {frameWidth: 200, frameHeight: 275});
 
     //load carts
-    this.load.image('crt', 'assets/crt.png');
-    this.load.spritesheet('crtV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/crtV1.png', {frameWidth: 275, frameHeight: 100});
-    this.load.spritesheet('crtV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/crtV2.png', {frameWidth: 275, frameHeight: 100});
+    this.load.image('crt', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63718500518f54dcf04_crt.png');
+    this.load.spritesheet('crtV1', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63718500582ec4dcf05_crtV1.png', {frameWidth: 275, frameHeight: 100});
+    this.load.spritesheet('crtV2', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63aaf95112c018b4cb4_crtV2.png', {frameWidth: 275, frameHeight: 100});
 
     //load fingergun
-    this.load.image('gun', 'assets/gun.png');
-    this.load.spritesheet('gunV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/gunV1.png', {frameWidth: 275, frameHeight: 175});
-    this.load.spritesheet('gunV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/gunV2.png', {frameWidth: 275, frameHeight: 175});
+    this.load.image('gun', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63723f94dd3e39c25db_gun.png');
+    this.load.spritesheet('gunV1', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d637c0f7f38473acd53a_gunV1.png', {frameWidth: 275, frameHeight: 175});
+    this.load.spritesheet('gunV2', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63ac0fdb52cb80f069d_gunV2.png', {frameWidth: 275, frameHeight: 175});
     
     //load eyeBlocks
-    this.load.image('eye', 'assets/eye.png');
-    this.load.spritesheet('eyeV0', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV0.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV1.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV2.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV3.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV4', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV4.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV5', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV5.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV6', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV6.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('eyeV7', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/eyeV7.png', {frameWidth: 200, frameHeight: 275});
+    this.load.image('eye', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d637faee5b8124e07bfd_eye.png');
+    this.load.spritesheet('eyeV0', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63799038e42257cb568_eyeV0.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV1', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d644fd63be0fa7e3f2ff_eyeV1.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV2', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6450ee421527bc6c708_eyeV2.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV3', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63ac4b4b518994ec91c_eyeV3.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV4', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6399075d9ce18d418d3_eyeV4.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV5', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d645abb26803536acb23_eyeV5.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV6', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63a5363d31c404868cd_eyeV6.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('eyeV7', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d645fab3d2dd6c8c52a5_eyeV7.png', {frameWidth: 200, frameHeight: 275});
 
     //load heart
-    this.load.image('hrt', 'assets/hrt.png');
-    this.load.spritesheet('hrtV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/hrtV1.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('hrtV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/hrtV2.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('hrtV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/hrtV3.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('hrtV4', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/hrtV4.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('hrtV5', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/hrtV5.png', {frameWidth: 275, frameHeight: 275});
+    this.load.image('hrt', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63a3bf43d7298663938_hrt.png');
+    this.load.spritesheet('hrtV1', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d645dad9dd3fa73b42ab_hrtV1.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('hrtV2', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63b2cf2813582d1bd06_hrtV2.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('hrtV3', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63cdad9dd00143b4283_hrtV3.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('hrtV4', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63a0ee421ac01c6c621_hrtV4.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('hrtV5', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6441850053f074dcf88_hrtV5.png', {frameWidth: 275, frameHeight: 275});
 
      //load brain
-    this.load.image('brn', 'assets/brn.png');
-    this.load.spritesheet('brnV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/brnV1.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('brnV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/brnV2.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('brnV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/brnV3.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('brnV4', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/brnV4.png', {frameWidth: 275, frameHeight: 275});
-    this.load.spritesheet('brnV5', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/brnV5.png', {frameWidth: 275, frameHeight: 275});
+    this.load.image('brn', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63649fe5f4ae361da88_brn.png');
+    this.load.spritesheet('brnV1', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63a9075d91541d4190c_brnV1.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('brnV2', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63accdd286263dbf803_brnV2.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('brnV3', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63a3bf43dc00b663973_brnV3.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('brnV4', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63bc4f3f207429da035_brnV4.png', {frameWidth: 275, frameHeight: 275});
+    this.load.spritesheet('brnV5', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63bd8adde0a1ec9f0ce_brnV5.png', {frameWidth: 275, frameHeight: 275});
 
     //load portals
-    this.load.image('por', 'assets/por.png');
-    this.load.spritesheet('porV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/porV1.png', {frameWidth: 275, frameHeight: 100});
-    this.load.spritesheet('porV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/porV2.png', {frameWidth: 275, frameHeight: 100});
-    this.load.spritesheet('porV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/porV3.png', {frameWidth: 275, frameHeight: 100});
+    this.load.image('por', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63a2cf2815951d1bd01_por.png');
+    this.load.spritesheet('porV1', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d64339c04156f304dcd5_porV1.png', {frameWidth: 275, frameHeight: 100});
+    this.load.spritesheet('porV2', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d64346521091219aa21a_porV2.png', {frameWidth: 275, frameHeight: 100});
+    this.load.spritesheet('porV3', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d644b5fdaf1a4d1fbab4_porV3.png', {frameWidth: 275, frameHeight: 100});
 
     //load tvs
-    this.load.image('tvs', 'assets/tvs.png');
-    this.load.spritesheet('tvsV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tvsV1.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('tvsV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tvsV2.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('tvsV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tvsV3.png', {frameWidth: 200, frameHeight: 275});
-    this.load.spritesheet('tvsV4', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tvsV4.png', {frameWidth: 200, frameHeight: 275});
+    this.load.image('tvs', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d635abb26892246aca0c_tvs.png');
+    this.load.spritesheet('tvsV1', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63699038e64107cb55b_tvsV1.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('tvsV2', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6360a67406bc2087e09_tvsV2.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('tvsV3', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d636682072f856626dc4_tvsV3.png', {frameWidth: 200, frameHeight: 275});
+    this.load.spritesheet('tvsV4', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d636c99cf48a01b2502c_tvsV4.png', {frameWidth: 200, frameHeight: 275});
 
     //load tube
-    this.load.image('tub', 'assets/tub.png');
-    this.load.spritesheet('tubV1', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tubV1.png', {frameWidth: 275, frameHeight: 175});
-    this.load.spritesheet('tubV2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tubV2.png', {frameWidth: 275, frameHeight: 175});
-    this.load.spritesheet('tubV3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/tubV3.png', {frameWidth: 275, frameHeight: 175});
+    this.load.image('tub', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d635abb2685f006aca0b_tub.png');
+    this.load.spritesheet('tubV1', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d63649fe5f877361da89_tubV1.png', {frameWidth: 275, frameHeight: 175});
+    this.load.spritesheet('tubV2', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6367f807d5ac3985608_tubV2.png', {frameWidth: 275, frameHeight: 175});
+    this.load.spritesheet('tubV3', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d636cc5cb26ac77c8ae8_tubV3.png', {frameWidth: 275, frameHeight: 175});
 }
 
 function create ()
