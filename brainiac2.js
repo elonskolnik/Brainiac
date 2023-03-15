@@ -72,22 +72,22 @@ function preload ()
     });
 
     //load sounds
-    this.load.audio('switch', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/switch.mp3');
-    this.load.audio('macSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/macSd.wav');
-    this.load.audio('hrtSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/hrtSd.wav');
-    this.load.audio('brnSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/brnSd.wav');
-    this.load.audio('eyeSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/eyeSd.wav');
-    this.load.audio('smkSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/smkSd.wav');
-    this.load.audio('crtSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/crtSd.wav');
-    this.load.audio('crtSd2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/crtSd2.wav');
-    this.load.audio('gunSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/gunSd.wav');
-    this.load.audio('tvsSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/tvsSd.wav');
-    this.load.audio('tvsSd2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/tvsSd2.wav');
-    this.load.audio('tubSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/tubSd.wav');
-    this.load.audio('tubSd2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/tubSd2.wav');
-    this.load.audio('porSd', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/porSd.wav');
-    this.load.audio('porSd2', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/porSd2.wav');
-    this.load.audio('porSd3', 'https://github.com/elonskolnik/Brainiac/blob/main/assets/sound/porSd3.wav');
+    this.load.audio('switch', 'https://www.dropbox.com/s/ai40u3cfe8rvael/switch.mp3?raw=1');
+    this.load.audio('macSd', 'https://www.dropbox.com/s/bjm09vfn9xrzo9a/macSd.wav?raw=1');
+    this.load.audio('hrtSd', 'https://www.dropbox.com/s/mzkiwu29sz89km6/hrtSd.wav?raw=1')
+    this.load.audio('brnSd', 'https://www.dropbox.com/s/bqu72rnfvo13o0s/brnSd.wav?raw=1');
+    this.load.audio('eyeSd', 'https://www.dropbox.com/s/hkumqnosomc7di9/eyeSd.wav?raw=1');
+    this.load.audio('smkSd', 'https://www.dropbox.com/s/x5f3ecsxnph3g56/smkSd.wav?raw=1');
+    this.load.audio('crtSd', 'https://www.dropbox.com/s/2g4uhc52x215e9q/crtSd.wav?raw=1');
+    this.load.audio('crtSd2', 'https://www.dropbox.com/s/07b2pxm5amq9dy1/crtSd2.wav?raw=1');
+    this.load.audio('gunSd', 'https://www.dropbox.com/s/k4mvrcitbm1k7q9/gunSd.wav?raw=1');
+    this.load.audio('tvsSd', 'https://www.dropbox.com/s/otkk079r4s9gv7s/tvsSd.wav?raw=1');
+    this.load.audio('tvsSd2', 'https://www.dropbox.com/s/7nqhw17sbrmy8h8/tvsSd2.wav?raw=1');
+    this.load.audio('tubSd', 'https://www.dropbox.com/s/n7i7scnalp6traz/tubSd.wav?raw=1');
+    this.load.audio('tubSd2', 'https://www.dropbox.com/s/hnk9y2ezbkew1zy/tubSd2.wav?raw=1');
+    this.load.audio('porSd', 'https://www.dropbox.com/s/3sgjwmf42opg0pi/porSd.wav?raw=1');
+    this.load.audio('porSd2', 'https://www.dropbox.com/s/46rwf9ylr8as7tz/porSd2.wav?raw=1');
+    this.load.audio('porSd3', 'https://www.dropbox.com/s/79aa7exgkmfcrnc/porSd3.wav?raw=1');
 
     //load buttons
     this.load.image('leftButton', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6d6fe15fd078dce8aee_leftArrow.png');
