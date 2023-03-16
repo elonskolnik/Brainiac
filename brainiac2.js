@@ -72,22 +72,22 @@ function preload ()
     });
 
     //load sounds
-    this.load.audio('switch', 'https:/dl.dropboxusercontent.com/s/ai40u3cfe8rvael/switch.mp3?raw=1');
-    this.load.audio('macSd', 'https:/dl.dropboxusercontent.com/s/bjm09vfn9xrzo9a/macSd.wav?raw=1');
-    this.load.audio('hrtSd', 'https:/dl.dropboxusercontent.com/s/mzkiwu29sz89km6/hrtSd.wav?raw=1')
-    this.load.audio('brnSd', 'https:/dl.dropboxusercontent.com/s/bqu72rnfvo13o0s/brnSd.wav?raw=1');
-    this.load.audio('eyeSd', 'https:/dl.dropboxusercontent.com/s/hkumqnosomc7di9/eyeSd.wav?raw=1');
-    this.load.audio('smkSd', 'https:/dl.dropboxusercontent.com/s/x5f3ecsxnph3g56/smkSd.wav?raw=1');
-    this.load.audio('crtSd', 'https:/dl.dropboxusercontent.com/s/2g4uhc52x215e9q/crtSd.wav?raw=1');
-    this.load.audio('crtSd2', 'https:/dl.dropboxusercontent.com/s/07b2pxm5amq9dy1/crtSd2.wav?raw=1');
-    this.load.audio('gunSd', 'https:/dl.dropboxusercontent.com/s/k4mvrcitbm1k7q9/gunSd.wav?raw=1');
-    this.load.audio('tvsSd', 'https:/dl.dropboxusercontent.com/s/otkk079r4s9gv7s/tvsSd.wav?raw=1');
-    this.load.audio('tvsSd2', 'https:/dl.dropboxusercontent.com/s/7nqhw17sbrmy8h8/tvsSd2.wav?raw=1');
-    this.load.audio('tubSd', 'https:/dl.dropboxusercontent.com/s/n7i7scnalp6traz/tubSd.wav?raw=1');
-    this.load.audio('tubSd2', 'https:/dl.dropboxusercontent.com/s/hnk9y2ezbkew1zy/tubSd2.wav?raw=1');
-    this.load.audio('porSd', 'https:/dl.dropboxusercontent.com/s/3sgjwmf42opg0pi/porSd.wav?raw=1');
-    this.load.audio('porSd2', 'https:/dl.dropboxusercontent.com/s/46rwf9ylr8as7tz/porSd2.wav?raw=1');
-    this.load.audio('porSd3', 'https:/dl.dropboxusercontent.com/s/79aa7exgkmfcrnc/porSd3.wav?raw=1');
+    this.load.audio('switch', 'https:/dl.dropboxusercontent.com/s/ai40u3cfe8rvael/switch.mp3?dl=0');
+    this.load.audio('macSd', 'https:/dl.dropboxusercontent.com/s/bjm09vfn9xrzo9a/macSd.wav?dl=0');
+    this.load.audio('hrtSd', 'https:/dl.dropboxusercontent.com/s/mzkiwu29sz89km6/hrtSd.wav?dl=0')
+    this.load.audio('brnSd', 'https:/dl.dropboxusercontent.com/s/bqu72rnfvo13o0s/brnSd.wav?dl=0');
+    this.load.audio('eyeSd', 'https:/dl.dropboxusercontent.com/s/hkumqnosomc7di9/eyeSd.wav?dl=0');
+    this.load.audio('smkSd', 'https:/dl.dropboxusercontent.com/s/x5f3ecsxnph3g56/smkSd.wav?dl=0');
+    this.load.audio('crtSd', 'https:/dl.dropboxusercontent.com/s/2g4uhc52x215e9q/crtSd.wav?dl=0');
+    this.load.audio('crtSd2', 'https:/dl.dropboxusercontent.com/s/07b2pxm5amq9dy1/crtSd2.wav?dl=0');
+    this.load.audio('gunSd', 'https:/dl.dropboxusercontent.com/s/k4mvrcitbm1k7q9/gunSd.wav?dl=0');
+    this.load.audio('tvsSd', 'https:/dl.dropboxusercontent.com/s/otkk079r4s9gv7s/tvsSd.wav?dl=0');
+    this.load.audio('tvsSd2', 'https:/dl.dropboxusercontent.com/s/7nqhw17sbrmy8h8/tvsSd2.wav?dl=0');
+    this.load.audio('tubSd', 'https:/dl.dropboxusercontent.com/s/n7i7scnalp6traz/tubSd.wav?dl=0');
+    this.load.audio('tubSd2', 'https:/dl.dropboxusercontent.com/s/hnk9y2ezbkew1zy/tubSd2.wav?dl=0');
+    this.load.audio('porSd', 'https:/dl.dropboxusercontent.com/s/3sgjwmf42opg0pi/porSd.wav?dl=0');
+    this.load.audio('porSd2', 'https:/dl.dropboxusercontent.com/s/46rwf9ylr8as7tz/porSd2.wav?dl=0');
+    this.load.audio('porSd3', 'https:/dl.dropboxusercontent.com/s/79aa7exgkmfcrnc/porSd3.wav?dl=0');
 
     //load buttons
     this.load.image('leftButton', 'https://uploads-ssl.webflow.com/63e530686f211b120ea271c6/6410d6d6fe15fd078dce8aee_leftArrow.png');
